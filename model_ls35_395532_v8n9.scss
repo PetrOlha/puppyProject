@@ -1,0 +1,9 @@
+const variableName = getRandomNumber();
+18 * 35
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+banana - grape
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+true + banana
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const randomNumber = getRandomNumber();
