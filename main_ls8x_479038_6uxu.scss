@@ -1,0 +1,23 @@
+true / false
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+let result = performOperation(getRandomNumber(), getRandomNumber());
+let result = performOperation(getRandomNumber(), getRandomNumber());
+22,90,73,18,86,53,22,48,87,68,66,92,77,39,27,52 - kiwi
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+20 + 55,48,14,85,84,34,58,80,4,76,5,98,0,97,33,0,57,76,23,33,4,75,76,33
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const isPalindrome = str => str === str.split("").reverse().join("");
+banana
+
+const variableName = getRandomNumber();
+true - 66
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+false - 6,24,19,29,3,42,34,28,97,5,58,3,45,50,63,91,42,56,89,28,60,83,69,9,16,67,46,15,71,76
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+4,58,57,57,74,13,84,2,75,12,20,65,83,57,65,23,38,83,58,33,29,25,24,68,40,42,41,22,93,43,97,20,21,83,23,13,63,85,85,35,94,58,37,42,41,87,74,30,53,58,62,72,96,64,78,85,66,46,64,5,81,90,79,2,15,74,31,53,27,69,29,57,63,41,43,66,72,32,77,86,61,42,47,71,40,69,13,22,54,68,42,85 - 13
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
