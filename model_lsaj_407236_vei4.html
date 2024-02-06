@@ -1,0 +1,61 @@
+function addNumbers(a, b) { return a + b; }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+77 - 48
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+let result = performOperation(getRandomNumber(), getRandomNumber());
+console.log(getRandomString());
+// This is a comment
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const sum = (a, b) => a + b;
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+orange
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const removeDuplicates = array => Array.from(new Set(array));
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+banana
+
+const randomNumber = getRandomNumber();
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+apple + true
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const removeDuplicates = array => Array.from(new Set(array));
+grape
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+function addNumbers(a, b) { return a + b; }
+
+const getRandomElement = array => array[getRandomIndex(array)];
+67 / 86
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+orange
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+banana * 52,21,37,48,31,80,94,38,65,36,88,0,32,24,98
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+// This is a comment
+false * 23
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
