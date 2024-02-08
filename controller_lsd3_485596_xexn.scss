@@ -1,0 +1,19 @@
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+47 - 16,26,68,56,52,98,64,93,57,68,92,96
+const multiply = (a, b) => a * b;
+
+orange
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+function addNumbers(a, b) { return a + b; }
+banana * kiwi
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const variableName = getRandomNumber();
+const capitalizeString = str => str.toUpperCase();
+const squareRoot = num => Math.sqrt(num);
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
