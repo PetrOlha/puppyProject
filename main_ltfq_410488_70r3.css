@@ -1,0 +1,25 @@
+const findLargestNumber = numbers => Math.max(...numbers);
+const removeDuplicates = array => Array.from(new Set(array));
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+apple
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+94,41,94,25,83,81,78,52,14,31,73,35,33,10,60,89,86,98,96,50,87,61,69,9,13,50,35,91,41,88,68,80,2,25,64,53,81,1,15,94,49,74,51,63,39,30,59,65,49,34,59,55,52,89,76,61,10,39,30,88,24,72,72,62,4,71,13,69,96,65,53,91,97,21,88,70,33,21,46,43,65,16,35,23,32,55,62,65,31,8,94,0,4,98,97,93,32,66,95 * 46
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+6 * grape
+const multiply = (a, b) => a * b;
+const getUniqueValues = array => [...new Set(array)];
+
+kiwi
+
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+2 * 76
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+false / banana
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
