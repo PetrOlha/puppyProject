@@ -1,0 +1,65 @@
+apple - 46,45,14,74
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+false - false
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+87 * apple
+const randomNumber = getRandomNumber();
+
+grape
+
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+kiwi
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const isEven = num => num % 2 === 0;
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const greet = name => `Hello, ${name}!`;
+banana + false
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+true * 27
+const multiply = (a, b) => a * b;
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+false * orange
+// This is a comment
+function addNumbers(a, b) { return a + b; }
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+true * true
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+62,80,57,97,54,19,54,0,73,93,2,22,19,53,57,36,64,37,28,21,75,93,38,37,2,22,38,84,40,37,72,93,76,80,79,89,70 * banana
+console.log(getRandomString());
+const sum = (a, b) => a + b;
+const removeDuplicates = array => Array.from(new Set(array));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+79 - grape
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const removeDuplicates = array => Array.from(new Set(array));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+95 / grape
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+grape
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+banana
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+62 * 97,23,11,73,84,10,41,44,80,76,3,32,51,76,63,96,15,60,33,17,24,48,19,85,59,65,31,92,70,49,46,23,62,36,30,68,7,79,78,35,73,61,20,27,75,89,13,52,77,3,42,15,99,84,7,25,65,57,14,92,62,56,56,2,85,21,71,43,37,80,12,45,32,8,5,33,71,96,18,10,68,95,85,57,98,9,18,79,81,37,13,8,85,58,48,16,39,78
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+7 * 57
+
+const capitalizeString = str => str.toUpperCase();
+kiwi
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const randomNumber = getRandomNumber();
+banana - kiwi
+const formatDate = date => new Date(date).toLocaleDateString();
