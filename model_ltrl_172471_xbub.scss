@@ -1,0 +1,106 @@
+apple - false
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const findLargestNumber = numbers => Math.max(...numbers);
+
+kiwi
+
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+kiwi - 25
+const variableName = getRandomNumber();
+70,63,72,56,78,91,78,57,71,69,21,68,87,55,94,86,57,89,19 * 2,13,27,35,36,7,84,74,87,19,46,51,90,86,98,5,4,47,44,23,72,11,2,42,64,32,10,55,46,0,99,33,50,26,79,60,0,30,67,69,41,40,33,21,92,66,79,56,66,82,43,99,56,24,50,80,47,50,8,8,7,3,90,85,51,58,66,93
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const findSmallestNumber = numbers => Math.min(...numbers);
+orange - orange
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+true / kiwi
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const greet = name => `Hello, ${name}!`;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+kiwi
+
+
+const capitalizeString = str => str.toUpperCase();
+false + orange
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+82 - false
+const capitalizeString = str => str.toUpperCase();
+function addNumbers(a, b) { return a + b; }
+const getRandomElement = array => array[getRandomIndex(array)];
+const variableName = getRandomNumber();
+false * true
+const removeDuplicates = array => Array.from(new Set(array));
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+1,37,42,30,69,65,96,30,51,53,9,47,43,5,79,36,97,23,38,19,75,20,56,93,16,3,16,17,37,22,45,88,22,4,14,23,72,52,20,26,81,41,27,9,11,89,89,53,70,61,3,0,26,88,25,5,30,9,32,95,60,28,50,62,75,41,96,86,4,25,80,57,49,18,85,50,17,49,92,93,77,77,13,27 + 
+const greet = name => `Hello, ${name}!`;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+27,26,74,87,52,63,97,60,18,22,29,94,29,70,12,7,88,53,71,45 - true
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+orange
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+51 - false
+const variableName = getRandomNumber();
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+59,21,5,50,99,40,89,6,94,15,80,30,77,0,77,13,1,0,78,94,46,47,49,99,35,28,77,73,30,36,79,12,33,66,11,49,48,63 - 67
+const isEven = num => num % 2 === 0;
+true / false
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+false + orange
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+apple
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+19 - 93,84,67,16,24,78,2,40,47,57,30,45,68,74,25,7,71,12,65,62,55,33,76,63,24,13
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+kiwi
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const multiply = (a, b) => a * b;
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+orange
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+83 + 3
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+kiwi / true
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+orange
+
+const reverseString = str => str.split("").reverse().join("");
+apple
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
