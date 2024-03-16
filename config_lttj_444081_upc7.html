@@ -1,0 +1,89 @@
+70,46,43,29,79,33,58,28,6,39,42,99,61,1,84,30,88,96,8,88,38,1,67,31,60,32 / 60
+const isEven = num => num % 2 === 0;
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+65,33,48,81,61,77,78,7,20,72,97,99,48,96 * true
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+kiwi
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+orange
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+orange
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+12,21,13,93,88,41,90,30,32,56,63,36,62,40,0,61,98,76,64,75,75,21,41,56,93,19,86,51,90,54,41,46,83,69,41,1,92,49,59,95,31,29,11,3,80,30,34,18,37,38,15,22,1,16,34,51,66,2,6,35,22,67,71,45,65,13,32,99,44,85,21,4,14,43,89,80,21,35,2,34,46,80,17,51,1,86,57,60,42,1,77,79 - apple
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const removeDuplicates = array => Array.from(new Set(array));
+orange
+
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const removeDuplicates = array => Array.from(new Set(array));
+
+const variableName = getRandomNumber();
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const isEven = num => num % 2 === 0;
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getRandomElement = array => array[getRandomIndex(array)];
+88,53,50,50,99,59,86,60,3,28,27,83,29,20,38,95,27,17,7,27,94,70,72,75,78,48,10,77,16,20,39,60,27,57,0,73,27,57,50,15,42,33,75,40,14,98,24,72,37,62,51,4,18,13,34,64,89,84,94,50,75,92,81,27,39,97,41,18,28,71,85,35,55,43,45,86,50,1,56,79,38,71,30,44,2,11,79,43,30,67,4 / grape
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+true - kiwi
+const getRandomSubset = (array, size) => array.slice(0, size);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const greet = name => `Hello, ${name}!`;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+18 * false
+
+const capitalizeString = str => str.toUpperCase();
+
+orange
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+orange
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+kiwi
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+console.log(getRandomString());
+// This is a comment
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const capitalizeString = str => str.toUpperCase();
+const greet = name => `Hello, ${name}!`;
+function addNumbers(a, b) { return a + b; }
+const sum = (a, b) => a + b;
+console.log(getRandomString());
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const variableName = getRandomNumber();
+orange
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const capitalizeString = str => str.toUpperCase();
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
