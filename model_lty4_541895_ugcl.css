@@ -1,0 +1,31 @@
+orange
+
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+3,79,27,58,69,78,21,88,49,7,13,99,4,25,80,53,92,60,17,23,28,99,63,51,85,53,54,58,69,28,3,19,63,31,47,67,74,14,26,21,99,54,94,6,91 - true
+class MyClass { constructor() { this.property = getRandomString(); } }
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false - false
+const randomNumber = getRandomNumber();
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+function addNumbers(a, b) { return a + b; }
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+true / 90,19,45,76,69,63,68,5,98,95,37,5,60,63,77,65,75,22
+let array = getRandomArray(); array.forEach(item => console.log(item));
+35 / false
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+orange
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+banana * grape
+const reverseString = str => str.split("").reverse().join("");
+true + 66
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+grape
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
