@@ -1,0 +1,24 @@
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+apple
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+false - 77,37,71,71,49,46,25,49,11,89,35,48,45,45,32,1,36,26,21,58,94,93,13,92,85,63,69,89,25,87,54,92,98,39,67,90,28,12,64,56,25,28,5,33,83
+// This is a comment
+const findLargestNumber = numbers => Math.max(...numbers);
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+true + banana
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+orange
+
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+orange
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const findLargestNumber = numbers => Math.max(...numbers);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
